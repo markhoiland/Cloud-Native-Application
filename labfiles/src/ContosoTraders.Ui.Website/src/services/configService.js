@@ -4,8 +4,8 @@ import axios from "axios";
 const settingsUrl = "/api/settings";
 
 // @TODO: Replace 'deploymentid' and 'REGION' in the next two lines with Deplployment ID and Region which is specific to the environment
-const APIUrl = 'http://contoso-traders-productsdeploymentid.REGION.cloudapp.azure.com/v1';
-const APIUrlShoppingCart = 'https://contoso-traders-cartsdeploymentid.orangeflower-95b09b9d.REGION.azurecontainerapps.io/v1';
+const APIUrl = 'http://contoso-traders-products135790.eastus.cloudapp.azure.com/v1';
+const APIUrlShoppingCart = 'https://contoso-traders-carts135790.orangeflower-95b09b9d.eastus.azurecontainerapps.io/v1';
 const UseB2C = process.env.REACT_APP_USEB2C;
 const B2cAuthority = process.env.REACT_APP_B2CAUTHORITY;
 const B2cClientId =  process.env.REACT_APP_B2CCLIENTID;
